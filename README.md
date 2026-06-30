@@ -103,8 +103,8 @@ For complex workflows requiring custom Buildx configuration, use with [docker-bu
     image-name: my-app
     registry: ghcr.io
     secrets: |
-      username=${{ secrets.ARTIFACTORY_USERNAME }}
-      password=${{ secrets.ARTIFACTORY_TOKEN }}
+      username=${{ secrets.P6M_ARTIFACTORY_USERNAME }}
+      password=${{ secrets.P6M_ARTIFACTORY_TOKEN }}
 ```
 
 ### With Build Arguments and Labels
